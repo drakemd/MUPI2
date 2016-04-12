@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MUPI2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_tempat">ListTempat</string>
+    <string name="title_activity_soal">SoalActivity</string>
+    <string name="title_activity_soal_rinci">SoalRinciActivity</string>
+    <string name="title_activity_jalur">Map</string>
+    <string name="title_activity_gambar_soal">GambarSoalActivity</string>
+    <string name="title_activity_credit">Credit</string>
+    <string name="title_activity_aturan">AturanActivity</string>
+    <string name="title_activity_soal_khusus">SoalKhusus</string>
+</resources>

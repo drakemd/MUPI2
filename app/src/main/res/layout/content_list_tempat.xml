@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="coorp.ah.mupi2.ListTempat"
+    tools:showIn="@layout/activity_list_tempat"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+        <ImageView
+            android:layout_width="550dp"
+            android:layout_height="350dp"
+            android:src="@drawable/backgroundgaris"
+            android:layout_marginTop="-30dp"
+            android:id="@+id/garis"
+            android:background="@android:color/transparent"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/star"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/star1"
+            android:background="@android:color/transparent"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/gembok"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="60dp"
+            android:id="@+id/star2"
+            android:background="@android:color/transparent"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/gembok"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="150dp"
+            android:id="@+id/star3"
+            android:background="@android:color/transparent"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/gembok"
+            android:layout_marginLeft="420dp"
+            android:layout_marginTop="160dp"
+            android:id="@+id/star4"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FPMIPA A"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/fpmipaa"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PERPUSTAKAAN"
+            android:background="@android:color/transparent"
+            android:id="@+id/perpus"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FPMIPA C"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="250dp"
+            android:id="@+id/fpmipac"
+            android:layout_marginTop="120dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:background="#F44336"
+            android:id="@+id/button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FPTK"
+            android:id="@+id/fptk"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="405dp"
+            android:background="@android:color/transparent"
+            />
+    </RelativeLayout>
+
+
+</HorizontalScrollView>
